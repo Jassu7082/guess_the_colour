@@ -5,7 +5,7 @@ import './home.css';
 
 function Home() {
     return (
-        <div>
+        <div className='whloe-div'>
             <header className="App-header">
                 <img className="logo" src={logo} alt="logo" />
             </header>
