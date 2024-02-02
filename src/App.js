@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Sp from './sp';
 import Mp from './mp';
-import Home from './home';
+import Home from './temp';
 function App() {
   return (
     <Router>

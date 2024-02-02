@@ -28,10 +28,3 @@
     align-items: center;
     margin: 10px;
 }
-.single-player:hover + .hover1{
-    z-index: 10;
-}
-.single-player:hover + .multi-player,
-.single-player:hover + .third-button {
-    display: none;
-}
