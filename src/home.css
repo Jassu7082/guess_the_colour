@@ -6,16 +6,19 @@
     justify-content: center;
 }
 .whloe-div{
-    height: 100%;
+    height: 100vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .button-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
     gap: 15rem;
+    margin-top: 6rem;
 }
-
 .minecraft-button {
     background-color: lightblue;
     width: 100px;
@@ -24,4 +27,11 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+.single-player:hover + .hover1{
+    z-index: 10;
+}
+.single-player:hover + .multi-player,
+.single-player:hover + .third-button {
+    display: none;
 }
