@@ -1,29 +1,31 @@
+body {
+    background: linear-gradient(to right, #ffc0cb, #1e90ff);
+}
+
 .container {
-    background-image: url("background.jpg");
     background-size: cover;
     height: 100vh;
     color: black;
     text-align: center;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 3em;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     font-size: 1.5em;
-  }
-  
-  .menu button {
+}
+
+.menu button {
     display: block;
     width: 200px;
     margin: 10px auto;
     padding: 10px;
-  }
-  
-  footer {
+}
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-  }
-  
+}
