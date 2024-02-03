@@ -13,6 +13,7 @@ const Home = () => {
                 <Link to="/sp"><button>Singleplayer</button></Link>
                 <Link to="/mp"><button>Join Multiplayer</button></Link>
                 <Link to="/mp"><button>Create Multiplayer </button></Link>
+                <Link to="/learn"><button>Learn</button></Link>
                 <Link to="/sp"><button>Options...</button></Link>
             </div>
             <footer>
