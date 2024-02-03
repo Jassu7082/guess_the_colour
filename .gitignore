@@ -5,9 +5,12 @@
 /.pnp
 .pnp.js
 
-# python environment files and .env files
+# python and django files
 .venv
+__pycache__
 .env
+db.sqlite3
+migrations
 
 # testing
 /coverage
