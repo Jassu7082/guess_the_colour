@@ -1,4 +1,4 @@
-color_dict = {
+const color_dict = {
     "Red": "#ff0000",
     "Blue": "#0000ff",
     "Green": "#00ff00",
@@ -67,3 +67,5 @@ color_dict = {
     "Pista Green": "#00ff00",
     "Umber": "#635147"
 }
+
+export default color_dict;
